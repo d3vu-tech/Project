@@ -1,0 +1,90 @@
+# Q1
+a=1
+print(type(a))
+
+b=1.2
+print(type(b))
+
+c="nainar"
+print(type(c))
+      
+d=True
+print(type(d))
+
+e=[1,2,3,4]
+print(type(e))
+
+# Q2
+Name="Devika"
+Age=21
+print(Name,Age)
+print(type(Name))
+print(type(Age))
+
+# Q3
+Name=input("enter your name:")
+Age=input("enter your age:")
+print("Hello",Name,"you are",Age,"years old" )
+
+# Q4
+x=int(input("enter a number:"))
+y=int(input("enter another number:"))
+print(x+y)
+print(x*y)
+print((x+y)/2)
+
+# Q5
+Number=int(input("enter a number:"))
+if Number>0:
+    print("Positive")
+elif Number<0:
+    print("Negative")
+else:
+    print("Zero")
+
+# Q6
+Marks=int(input("Enter your marks(0 to 100):"))
+if Marks>=90:
+    print("Grade A")
+elif Marks>=75:
+    print("Grade B")
+elif Marks>=50:
+    print("Grade C")
+else:
+    print("Fail")
+
+# Q7
+for i in range(1,11):
+    print(i)
+
+# Q8
+n=int(input("enter a number:"))
+for i in range(1,11):
+    print(n*i)
+
+# Q9
+for i in range(1,21):
+    if i%2==0:
+        print(i*i)
+
+# Q10
+z=10
+while(z>=1):
+    print(z)
+    z=z-1
+
+# Q11
+while True:
+    s=int(input("enter a number:"))
+    if(s<0):
+        break
+
+# Q12
+Num=int(input("enter a number:"))
+fact=1
+while(Num>1):
+    fact*=Num
+    print(Num,fact)
+    Num=Num-1
+
+    

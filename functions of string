@@ -1,0 +1,190 @@
+a="hello friend"
+print(a)
+print(type(a))
+b="365"
+print(type(b))
+print(len(a))
+print(len(b))
+
+# indexing
+print(a[4])
+print(a[8])
+print(a[1])
+print(a[-1])
+print(a[-3])
+
+# slicing
+b1="NICE MOON"
+print(b1[2:4])
+print(b1[0:5])
+print(b1[:6])
+print(b1[6:])
+
+# concatenation
+print(a)
+print(b1)
+print(a+b1)
+print(a*3)
+
+# other functions of string
+c1="have a nice day"
+print(c1.capitalize())
+
+d1="TODAY"
+print(d1.casefold())
+
+# count()
+x="l"
+e="sreesree"
+print(e.count(x))
+print(e.count("ee"))
+
+# find()
+r="rema kallingal"
+print(r.find("e"))
+print(r.find("l"))
+
+# is digit()
+a5="devi123"
+print(a5.isdigit())
+
+
+
+# isalnum
+a7="abc123"
+print(a7.isalnum())
+
+# islower
+a8="hello"
+print(a8.islower())
+
+# zfill()
+txt="Hello, i am peter"
+print(txt.zfill(25))
+
+# split()
+txt="Hello,i am peter, i am 26 years old"
+print(txt.split(","))
+# default split value -1
+#  print(txt.split(',',1))
+
+# splitlines()
+txt="Hello,i am peter/ni am 26 years old"
+print(txt.splitlines())
+
+# title()
+txt="Hello, i am peter"
+print(txt.title())
+
+# istrip()
+txt=',,,,HI...how...are...you,,,,'
+print(txt.lstrip(','))
+
+# strip()
+txt="***hello***"
+print(txt.strip("*"))
+
+# join
+myseparator="Test"
+mytup=('a','b','c')
+print(myseparator.join(mytup))
+
+# isidentifier()
+txt="name"
+print(txt.isidentifier())
+
+# istitle()
+txt="check whether"
+print(txt.istitle())
+
+# isprintable()
+txt="hello/n"
+print(txt.isprintable())
+
+# isspace
+txt=(" ")
+print(txt.isspace())
+
+# isupper
+txt="HELLO"
+print(txt.isupper())
+
+# isalpha()
+txt="Hello"
+print(txt.isalpha())
+
+# endswith()
+txt="My name is sam"
+print(txt.endswith('m'))
+print(txt.endswith('m',1,5))
+# start index,end index
+
+# starswith()
+txt="Hello world"
+print(txt.startswith("H"))
+
+# center()
+string='python'
+print(string.center(15,'*'))
+
+# ljust()
+txt='simple'
+print(txt.ljust(10,'*'))
+
+# rjust
+txt='simple'
+print(txt.rjust(10,'*'))
+
+# swapcase
+txt='WindoWs'
+print(txt.swapcase())
+
+# expandtabs
+txt="H\te\t/\t/\to"
+print(txt.expandtabs())
+
+# format()
+name="alice"
+age=25
+print("My name is {} and i am {} years old.".format(name,age))
+
+# format_map()
+profession={'name':['Barry','Bruce'],
+            'profession':['Engineer','Doctor'],
+            'age':[30,31]}
+print('{name[0]} is an {profession[0]} and he is{age[0]}years old.'.format_map(profession))
+
+# index()
+text="hello world"
+print(text.index("h"))
+print(text.index("world"))
+
+# rindex()
+text="banana"
+print(text.rindex("a"))
+
+# rfind()
+text="banana"
+print(text.rfind("z"))
+
+# transalate()
+a1=str.maketrans("hai","222")
+print("world".translate(a1))
+
+# partition()
+x2="hai iam Nainar"
+print(x2.partition("iam"))
+
+# rpartition
+x2="hai iam Nainar"
+print(x2.rpartition("iam"))
+
+# replace()
+a1="mango"
+print(a1.replace("a","o"))
+
+# lower()
+print("HELLO".lower())
+
+# upper()
+print("hai".upper())

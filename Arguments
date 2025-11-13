@@ -1,0 +1,118 @@
+##Default argument
+ 
+# def fun(x="India"):
+#     print("country is:",x)
+# fun()
+
+# def fun(x="me"):
+#     print(x)
+# fun()
+
+# def fun(x="India"):
+#     print("country is:",x)
+# fun("uk")
+
+##Keyword argument
+
+# def fun(x,z):
+#     print("first:",x)
+#     print("second:",z)
+# fun("z=abd","x=mnv")
+# positions matti kodkam if needed,rather than required argument
+
+##Arbitrary arguments
+
+# def fun(*x):
+#     print(x)
+# fun("u=abc","v=dfg","w=hij","x=klm")
+
+# def fun(*x):
+#     print(x[0])
+# fun("u=abc","v=dfg","w=hij","x=klm")
+
+##Return
+
+# def fun():
+#     return "have a nice day"
+# print(fun())
+# while applying return,function print cheyyyan avde code kodkkanam
+
+# def fun(a,b):
+#     return (a+b)
+# print(fun(1,2))
+
+# print("ammu age","=",23)
+# print("appu age","=",21)
+
+# a=23
+# b=24
+# print(f(age of ammu()))
+
+# def factorial(n):
+#     if n==0 or n==1:
+#         return 1
+#     else:
+#         return n*factorial(n-1)
+# print(factorial(5))
+
+# def fact(x):
+#     return x
+# fact
+# print(fact("arun"))           #recorded
+
+##Expression for item in itreable
+
+# for i in range(1,11):
+#     print(i*i)
+
+# sqr=[i*i for i in range(1,11)]
+# print(sqr)
+
+##Function for item in iterable if condition
+
+# sqr=[i*i for i in range(1,11) if i%2==0]
+# print(sqr)
+
+# def fun(**x):
+#     print("name is",x["c"])
+# fun(a="abc",b="bca",c="nlp")   #positional indexing
+
+# x="devika"
+# s=x[::-1]
+# print(s)
+
+# def reverse_string(s):
+#     return s[::-1]
+# print(reverse_string("hello"))
+
+# def fun(a,b):
+#     if (a>b):
+#         return(a)
+#     else:
+#         return(b)
+# print(fun(2,3))
+
+
+# ano=lambda x:x*x
+# print(ano(3))
+
+##anonymous function
+
+lst=[1,2,3,4,5,6,7,8]
+sqr=list(map(lambda x:x*x,lst))
+print(sqr)
+
+lst=[1,2,3,4,5,6,7,8]
+sqr=list(filter(lambda x:x*x,lst))
+print(sqr)
+
+lst=[1,2,3,4,5,6,7,8]
+sqr=list(filter(lambda x:x%2==0,lst))
+print(sqr)
+
+##extra
+
+# from functools import reduce
+# lst=[1,2,3,4,5,6,7,8]
+# tot=reduce(lambda x,y:x+y,lst)
+# print(tot)

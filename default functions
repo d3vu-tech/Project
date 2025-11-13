@@ -1,0 +1,42 @@
+# def max():
+#     print("maximum")
+# max()
+
+# def Thennel(x):
+#     print("Ajith",x)
+# Thennel("Anil")
+
+# def add(x,y):
+#     print(x+y)``
+# add(12,7)
+
+# def odd_or_even(x):
+#     if x%2==0:
+#         print("even")
+#     else:
+#         print("odd")
+# odd_or_even(15)
+
+# def vowels_or_consonants(x):
+#     vcount=0
+#     ccount=0
+#     for i in x:
+#         if i in ('A','E','I','O','U','a','i','o','u','e'):
+#             vcount=vcount+1
+#         else:
+#             ccount=ccount+1
+#     print("vcount:",vcount)
+#     print("ccount:",ccount)
+# vowels_or_consonants("Fathima")    
+
+# def calculator(x,y):
+#     print("Addition:",x+y)
+#     print("Subtraction:",x-y)
+#     print("Multiplication:",x*y)
+#     print("Division:",x/y)
+# calculator(10,12)
+
+
+
+
+
